@@ -13,10 +13,10 @@
         <hr />
         <h3>Hesap Bilgileriniz</h3>
         <br />
-        <label for="name">Kullanici adi:</label>
+        <label for="username">Kullanici adi:</label>
         <input
           type="text"
-          id="name"
+          id="username"
           placeholder="Kullanici adi giriniz"
           required
           min="5"
@@ -35,6 +35,44 @@
           placeholder="parola giriniz"
           required
         />
+      </section>
+      <section>
+        <h2>Kisisel Bilgileriniz</h2>
+        <label for="name">Adiniz:</label>
+        <input type="text" id="name" placeholder="ad giriniz" required>
+        <br><br>
+        <label for="lastname">Soyadiniz:</label>
+        <input type="text" id="lastname" placeholder="soyad giriniz" required>
+        <br><br>
+        <label for="city">Sehir:</label>
+        <select name="" id="city"> 
+            <option disabled selected>Seciniz</option>
+            <option value="baki">Baki</option>
+            <option value="tovuz">Tovuz</option>
+            <option value="gence">Gence</option>
+            <br><br>
+    
+        </select>
+        <br><br>
+        <label for="">Cinsiyet:</label>
+        <input type="radio" name="gender" id="erkek" >
+        <label for="erkek">Erkek</label>
+        
+        <input type="radio" name="gender" id="kadin" >
+        <label for="kadin">kadin</label>
+        <br><br>
+        <label for="">Hobileriniz:</label>
+        <input type="checkbox" id="1">
+        <label for="1">Sinema</label>
+        <input type="checkbox" id="2">
+        <label for="2">Gezmek</label>
+        <input type="checkbox" id="3">
+        <label for="3">Spor</label>
+        <input type="checkbox" id="4">
+        <label for="4">Kitap</label>
+        <br><br>
+        <button type="submit">Kaydet</button>
+
       </section>
     </form>
   </body>
